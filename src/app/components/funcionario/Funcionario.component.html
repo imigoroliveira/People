@@ -1,0 +1,18 @@
+<div class="list" *ngFor="let funcionario of Funcionarios">
+  <li class="lista" >
+    Nome:
+     {{ funcionario.nome }}
+   </li>
+   <br>
+   <li class="lista">
+    Saldo:
+     {{ funcionario.criadoEm }}
+   </li>
+   <li class="lista">
+      Ativo:
+       {{ funcionario.ativo }}
+     </li>
+  
+</div>
+
+<button class="btn-cad">Cadastrar Funcionario</button>

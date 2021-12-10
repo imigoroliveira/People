@@ -1,0 +1,12 @@
+.btn-cad {
+  margin-top: 100px;
+  background-color: rgb(229, 237, 245);
+  font-weight: bold;
+  font-size: 15px;
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+}
+.list {
+  margin-top: 20%;
+}
